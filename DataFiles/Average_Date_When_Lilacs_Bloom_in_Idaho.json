@@ -1,0 +1,512 @@
+{
+  "currentVersion" : 11.2, 
+  "id" : 0, 
+  "name" : "Average Date of Lilac Bloom", 
+  "type" : "Feature Layer", 
+  "serviceItemId" : "fcf608df8f4649838bd34527af8823d0", 
+  "cacheMaxAge" : 30, 
+  "displayField" : "DATE", 
+  "description" : "These data represent mean annual precipitation (in inches) for Idaho for the climatological period 1961-90. Average annual precipitation is the average of the annual amount of precipitation for a location over a year. Data used to delineate these boundaries are from Idaho weather stations (1961-90).", 
+  "copyrightText" : "Idaho State Climate Services -- Myron Molnau", 
+  "defaultVisibility" : true, 
+  "editingInfo" : {
+    "lastEditDate" : 1513195666534, 
+    "schemaLastEditDate" : 1513195666534, 
+    "dataLastEditDate" : 1513195666534
+  }, 
+  "multiScaleGeometryInfo" : {
+    "levels" : [
+      3, 
+      5, 
+      7, 
+      9, 
+      11, 
+      13
+    ], 
+    "generalizationType" : "Default"
+  }, 
+  "relationships" : [], 
+  "isDataVersioned" : false, 
+  "hasContingentValuesDefinition" : false, 
+  "supportsAppend" : true, 
+  "supportsCalculate" : true, 
+  "supportsASyncCalculate" : true, 
+  "supportsTruncate" : true, 
+  "supportsAttachmentsByUploadId" : true, 
+  "supportsAttachmentsResizing" : true, 
+  "supportsRollbackOnFailureParameter" : true, 
+  "supportsStatistics" : true, 
+  "supportsExceedsLimitStatistics" : true, 
+  "supportsAdvancedQueries" : true, 
+  "supportsValidateSql" : true, 
+  "supportsCoordinatesQuantization" : true, 
+  "supportsLayerOverrides" : true, 
+  "supportsTilesAndBasicQueriesMode" : true, 
+  "supportsFieldDescriptionProperty" : true, 
+  "supportsQuantizationEditMode" : true, 
+  "supportsApplyEditsWithGlobalIds" : false, 
+  "supportsMultiScaleGeometry" : true, 
+  "supportsReturningQueryGeometry" : true, 
+  "hasGeometryProperties" : true, 
+  "geometryProperties" : 
+  {
+    "shapeAreaFieldName" : "Shape__Area", 
+    "shapeLengthFieldName" : "Shape__Length", 
+    "units" : "esriMeters"
+  }, 
+  "advancedQueryCapabilities" : {
+    "supportsPagination" : true, 
+    "supportsQueryAttachmentsCountOnly" : true, 
+    "supportsPaginationOnAggregatedQueries" : true, 
+    "supportsQueryRelatedPagination" : true, 
+    "supportsQueryWithDistance" : true, 
+    "supportsReturningQueryExtent" : true, 
+    "supportsStatistics" : true, 
+    "supportsOrderBy" : true, 
+    "supportsDistinct" : true, 
+    "supportsQueryWithResultType" : true, 
+    "supportsSqlExpression" : true, 
+    "supportsAdvancedQueryRelated" : true, 
+    "supportsCountDistinct" : true, 
+    "supportsPercentileStatistics" : true, 
+    "supportsSpatialAggregationStatistics" : true, 
+    "supportedSpatialAggregationStatistics" : [
+      "EnvelopeAggregate", 
+      "CentroidAggregate", 
+      "ConvexHullAggregate"
+    ], 
+    "supportsLod" : true, 
+    "supportsQueryWithLodSR" : false, 
+    "supportedLodTypes" : [
+      "geohash"
+    ], 
+    "supportsReturningGeometryCentroid" : true, 
+    "supportsReturningGeometryEnvelope" : false, 
+    "supportsReturningGeometryProperties" : true, 
+    "supportsQueryWithDatumTransformation" : true, 
+    "supportsCurrentUserQueries" : true, 
+    "supportsHavingClause" : true, 
+    "supportsOutFieldSQLExpression" : true, 
+    "supportsMaxRecordCountFactor" : true, 
+    "supportsTopFeaturesQuery" : true, 
+    "supportsDisjointSpatialRel" : true, 
+    "supportsQueryWithCacheHint" : true, 
+    "supportedOperationsWithCacheHint" : [
+      "query", 
+      "queryTopFilter", 
+      "queryAnalytics", 
+      "queryAttachments", 
+      "queryRelated"
+    ], 
+    "supportsQueryAnalytic" : true, 
+    "supportsDefaultSR" : true, 
+    "supportsFullTextSearch" : true
+  }, 
+  "advancedQueryAnalyticCapabilities" : {
+    "supportsLinearRegression" : true, 
+    "supportsAsync" : true, 
+    "supportsPercentileAnalytic" : true
+  }, 
+  "advancedEditingCapabilities" : {
+    "supportedSqlFormatsInCalculate" : [
+      "standard"
+    ], 
+    "supportsAsyncApplyEdits" : true, 
+    "supportsReturnEditResults" : true, 
+    "supportsApplyEditsbyUploadID" : true, 
+    "supportedApplyEditsUploadIDFormats" : "JSON"
+  }, 
+  "infoInEstimates" : [
+    "extent", 
+    "count"
+  ], 
+  "useStandardizedQueries" : true, 
+  "geometryType" : "esriGeometryPolygon", 
+  "minScale" : 0, 
+  "maxScale" : 0, 
+  "extent" : {
+    "xmin" : 2241623.6261, 
+    "ymin" : 1198715.4649, 
+    "xmax" : 2744655.3827000004, 
+    "ymax" : 1982044.6886999991, 
+    "spatialReference" : {
+      "wkid" : 102605, 
+      "latestWkid" : 8826
+    }
+  }, 
+  "drawingInfo":{"renderer":{"type":"uniqueValue","field1":"DATE","field2":null,"field3":null,"fieldDelimiter":", ","defaultSymbol":null,"defaultLabel":null,"uniqueValueInfos":[{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[255,0,0,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"April 15","label":"April 15","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[255,170,0,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"April 18","label":"April 18","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[255,127,127,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"April 30","label":"April 30","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[255,190,190,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"May 06","label":"May 06","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[115,178,115,255],"outline":{"type":"esriSLS","style":"esriSLSNull","color":[110,110,110,255],"width":0}},"value":"May 15","label":"May 15","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[152,230,0,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"May 18","label":"May 18","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[165,245,122,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"May 30","label":"May 30","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[184,255,190,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"June 04","label":"June 04","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[233,255,190,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"June 09","label":"June 09","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[0,112,255,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"June 14","label":"June 14","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[87,168,214,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"June 19","label":"June 19","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[0,178,255,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"June 24","label":"June 24","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[115,223,255,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"June 29","label":"June 29","description":""},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[190,232,255,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[0,0,0,0],"width":0.4}},"value":"July 04","label":"July 04","description":""}]},"transparency":0,"labelingInfo":null}, 
+  "allowGeometryUpdates" : true, 
+  "hasAttachments" : false, 
+  "htmlPopupType" : "esriServerHTMLPopupTypeAsHTMLText", 
+  "hasM" : false, 
+  "hasZ" : false, 
+  "objectIdField" : "OBJECTID", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdField" : "", 
+  "typeIdField" : "DATE", 
+  "fields" : [
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : false, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "DATE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Average Date of First Bloom", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8, 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Area", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Area", 
+      "sqlType" : "sqlTypeDouble", 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Length", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Length", 
+      "sqlType" : "sqlTypeDouble", 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "indexes" : [
+    {
+      "name" : "PK__LILAC_BL__F4B70D85A99066B1", 
+      "fields" : "OBJECTID", 
+      "isAscending" : true, 
+      "isUnique" : true, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "user_4137.LILAC_BLOOM_AVERAGE_DATE_OF_LILAC_BLOOM_Shape_sidx", 
+      "fields" : "Shape", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Spatial"
+    }, 
+    {
+      "name" : "Shape__Area_Index", 
+      "fields" : "Shape__Area", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "Shape__Length_Index", 
+      "fields" : "Shape__Length", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }
+  ], 
+  "dateFieldsTimeReference" : {
+    "timeZone" : "UTC", 
+    "respectsDaylightSaving" : false
+  }, 
+  "preferredTimeReference" : null, 
+  "types" : [
+    {
+      "id" : "April 15", 
+      "name" : "April 15", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "April 15", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "April 18", 
+      "name" : "April 18", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "April 18", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "April 30", 
+      "name" : "April 30", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "April 30", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "May 06", 
+      "name" : "May 06", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "May 06", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "May 15", 
+      "name" : "May 15", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "May 15", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "May 18", 
+      "name" : "May 18", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "May 18", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "May 30", 
+      "name" : "May 30", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "May 30", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "June 04", 
+      "name" : "June 04", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "June 04", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "June 09", 
+      "name" : "June 09", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "June 09", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "June 14", 
+      "name" : "June 14", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "June 14", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "June 19", 
+      "name" : "June 19", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "June 19", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "June 24", 
+      "name" : "June 24", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "June 24", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "June 29", 
+      "name" : "June 29", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "June 29", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "July 04", 
+      "name" : "July 04", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "July 04", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+            }
+          }
+        }
+      ]
+    }
+  ], 
+  "templates" : [], 
+  "supportedQueryFormats" : "JSON, geoJSON, PBF", 
+  "supportedAppendFormats" : "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl", 
+  "supportedExportFormats" : "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,excel", 
+  "supportedSpatialRelationships" : [
+    "esriSpatialRelIntersects", 
+    "esriSpatialRelContains", 
+    "esriSpatialRelCrosses", 
+    "esriSpatialRelEnvelopeIntersects", 
+    "esriSpatialRelIndexIntersects", 
+    "esriSpatialRelOverlaps", 
+    "esriSpatialRelTouches", 
+    "esriSpatialRelWithin", 
+    "esriSpatialRelDisjoint", 
+    "esriSpatialRelRelation"
+  ], 
+  "supportedContingentValuesFormats" : "JSON, PBF", 
+  "supportedSyncDataOptions" : 4, 
+  "hasStaticData" : true, 
+  "maxRecordCount" : 1000, 
+  "standardMaxRecordCount" : 4000, 
+  "standardMaxRecordCountNoGeometry" : 32000, 
+  "tileMaxRecordCount" : 4000, 
+  "maxRecordCountFactor" : 1, 
+  "capabilities" : "Query,Extract"
+}
